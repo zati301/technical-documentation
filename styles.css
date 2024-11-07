@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Hind Madurai", sans-serif;
+  font-size: 18px;
+}
+
+#title {
+  background-color: #2f5273;
+  font-size: 24px;
+  font-weight: lighter;
+  height: 100px;
+  color: #edf5fc;
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 24px;
+}
+
+#header-navbar {
+  background-color: #353d45;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 300px;
+  height: 100%;
+  
+}
+
+#navbar-hr {
+  border: 1px solid #ced5dbAA;
+  display: block;
+  padding-left: 30px;
+  margin: -10px 20px 10px 20px;
+}
+
+#navbar-header {
+  margin-bottom: 20px;
+  color: #edf5fc;
+}
+
+#navbar ul {
+  list-style-type: none;
+}
+
+#navbar ul li a {
+  color: #ced5db;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 5px;
+  line-height: 1.6rem;
+  padding-left: 25px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#navbar ul li a:hover {
+  background-color: #495159;
+}
+
+#navbar h2 {
+  padding-left: 25px;
+}
+
+main, footer {
+  display: block;
+  margin-left: 350px;
+  padding: 20px 40px 0 0;
+}
+
+.main-section {
+  margin-bottom: 12px;
+}
+
+.main-section:last-of-type {
+  margin-bottom: unset;
+  padding-bottom: 100px;
+  border-bottom: 1px solid #898c8f;
+}
+
+hr {
+  margin-bottom: 8px;
+}
+
+.section-header {
+  font-size: 30px;
+}
+
+.main-section p {
+  line-height: 1.5rem;
+  text-align: justify;
+}
+
+#getting-started-list ol {
+  padding-left: 1.8rem;
+}
+
+#getting-started-list ol li {
+  margin-bottom: 3px;
+}
+
+#getting-started-list ol li:first-of-type {
+  margin-top: 3px;
+}
+
+code {
+  display: block;
+  border: 1px solid #898c8fAA;
+  margin: 25px 0;
+  padding-left: 10px;
+  line-height: 50px;
+}
+
+code::before {
+  content: "<"
+}
+
+code::after {
+  content: ">"
+}
+
+footer {
+  color: #898c8f;
+  padding-bottom: 20px;
+}
+
+footer p {
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+
+  #title {
+    font-size: 20px;
+  }
+
+  .section-header {
+  font-size: 20px;
+  }
+}
